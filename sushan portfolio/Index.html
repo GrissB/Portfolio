@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width= device-width, initial-scale= 1.0">
+  <title>Personal Potfolio Website</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://kit.fontawesome.com/227b0a5e53.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" ></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+</head>
+
+<body>
+  <div class="scroll-up-btn">
+    <i class="fas fa-angle-up"></i>
+  </div>
+  <nav class="navbar">
+    <div class="max-width">
+      <div class="logo"><a href="#">Portfo<span>lio.</span></a></div>
+        <ul class="menu">
+          <li><a href="#home" class="menu-btn">Home</a></li>
+          <li><a href="#about" class="menu-btn">About</a></li>
+          <li><a href="#Accom" class="menu-btn">Accomplishments</a>
+            <li><a href="#skills" class="menu-btn">Skills</a></li>
+          <li><a href="#exp" class="menu-btn">Work Experience</a>
+          <li><a href="#contact" class="menu-btn">Contact</a></li>
+        </ul>
+      <div class="menu-btn">
+        <!-- makes menu bar- start -->
+        <i class="fas fa-bars"></i>
+      </div><!-- makes menu bar  -->
+    </div>
+  </nav>
+  <!-- home section start -->
+  <section class="home" id="home">
+    <div class="max-width">
+      <div class="home-content">
+          <div class="text-1">Hello, My Name is</div>
+          <div class="text-2">Sushan Shrestha</div>
+          <div class="text-3">And I am <span class= "typing"></span></div>
+          <a href="mailto: shresthasushan@yahoo.com">Hire Me!</a>
+      </div>
+    </div>
+  </section>
+  <!-- about section start -->
+  <section class="about" id="about">
+    <div class="max-width">
+      <h2 class="title">About me</h2>
+      <div class="about-content">
+        <div class="column left">
+          <img src="images/sushi.jpg" alt="my pic">
+        </div>
+        <div class="column right">
+          <div class="text">I'm Sushan and I am <span class= "typing-2"></span></div>
+          <p>I am a technically-oriented and seasoned professional with dedicated years of experience
+            overseeing site operations. Extensive knowledge in beverage industry- hospitality
+            and customer service possessing strong networking, organizational and problem
+            solving skills with an aptitude to excel and grow. Thank you!!! :D
+          </p>
+          <a href="CV.PDF">Download CV</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Accom section start  -->
+  <section class="Accom" id="Accom">
+    <div class="max-width">
+      <h2 class="title">My Accomplishments</h2>
+      <div class="serv-content">
+          <div class="card">
+            <div class= "box">
+              <i class="fas fa-calculator"></i>
+              <div class="text">Bachelor of Accounting</div>
+              <p>2014-2016<br> <br>
+                A cooperative education program in accounting to master accounting principles alongside financial and management accounting, corporate reporting, taxation law and auditing.</p>
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <div class= "box">
+              <i class= "fas fa-user-tie"></i>
+              <div class="text">Adv Diploma of Leadership & Mgmt</div>
+              <p>2020-2021 <br>
+                To enhance skills need to be a trusted workplace leader.  Navigate complex problems, inspire your teams and successfully guide your organisation through periods of major change.</p>
+              </div>
+          </div>
+          <div class="card">
+            <div class= "box">
+              <i class= "fas fa-handshake"></i>
+              <div class="text">Diploma of Leadership & Management</div>
+              <p>2019-2020<br>
+                To help me  build important career skills, such as: personal development, business development and planning skills through innovation and continuous improvement.</p>
+              </div>
+          </div>
+      </div>
+    </div>
+  </section>
+  <!-- Skills section start -->
+  <section class="skills" id="skills">
+    <div class="max-width">
+      <h2 class="title">My Skills</h2>
+        <div class="skills-content">
+          <div class="column left">
+              <div class="text">My creative skills & experiences</div>
+              <p>I have always believed in making connections with people , networking and asking questions. 
+              </p>
+              </div>
+          <div class="column right">
+            <div class="bars">
+              <div class="info">
+                    <span>Leadership</span>
+                    <span>90%</span>
+              </div>
+              <div class="line html"></div>
+            </div>
+            <div class="bars">
+              <div class="info">
+                    <span>People Skills</span>
+                    <span>90%</span>
+              </div>
+              <div class="line css"></div>
+            </div>
+            <div class="bars">
+              <div class="info">
+                    <span>Management Skills</span>
+                    <span>85%</span>
+              </div>
+              <div class="line js"></div>
+            </div>
+            <div class="bars">
+              <div class="info">
+                    <span>Computer Skills</span>
+                    <span>80%</span>
+              </div>
+              <div class="line java"></div>
+            </div>
+            <div class="bars">
+              <div class="info">
+                    <span>Customer Service</span>
+                    <span>100%</span>
+              </div>
+              <div class="line mysql"></div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </section>
+  <!-- work experience section start  -->
+  <section class="exp" id="exp">
+    <div class="max-width">
+      <h2 class="title">Work Experience</h2>
+      <div class="carousel owl-carousel">
+        <div class="card">
+          <div class="box">
+            <div class="text">Site Manager</div>
+            <h3>Meriton Suites</h3> <h6>2014-2019</h6>
+            <p> <ul>
+              <li>Manage staffing, rosterings and payments for the site.</li>
+              <li>Interviewing, hiring, Coaching, Counselling and Training duties including performance appraisals, and rewarding staffs.</li>
+              <li>Ensuring all laws, codes, ordinances, policies, safety procedures are followed and monitored.
+              <li>Investigated, analysed and resolved operational complaints.</li>
+              <li>Awarded with the Manager of Summer Quarter 2016-17 for superior  work performance.</li>
+              <li>4+  years’ experience managing a team of 65+ personnel.</li>
+              </ul>
+              </div>
+        </div>
+        <div class="card">
+          <div class="box">
+            <div class="text">Finance- Purchasing Assistant </div>
+            <h3>ACCOR HOTELS-Mercure Sydney Central</h3> <h6>2018-2019</h6>
+           <p> <ul>
+             <li>Ledger entry and bookkeeping</li>
+             <li>Income and Expenditure Reports, EOM  Profit & Loss Statements and Trial Balances.</li>
+             <li>Accounts Payable, PO matching, stock take,Order checking, process invoices into database, EOM reporting and data entry.</li>
+             <li>Corresponding with suppliers for credit notes,order enquiries and discrepancies.</li>
+            <li>Handling internal and external general queries.</li>
+            </ul></p>
+           </div>
+        </div>
+        <div class="card">
+          <div class="box">
+            <div class="text">Bartender</div>
+            <h3>Stockade Brewery</h3><h6>2017-2019</h6>
+            <p> <ul>
+              <li>Knowledge of principles and processes for providing exceptional customer Accom, i.e. meeting quality standards for Accom, and evaluation of customer satisfaction.</li>
+              <li>Undertook stock duties ,bookings, shelving,deliveries and orders.</li>
+              <li>Cash till Reconciliations.</li>
+              <li>Preparing alcoholic or non-alcoholic beverages for bar and patrons.</li>
+              <li>Interacting with customers, taking orders and serving snacks and drinks</li>
+              <li>Assessing bar customers’ needs and preferences and making recommendations</li>
+             </ul></p>
+             </div>
+        </div>
+        <div class="card">
+          <div class="box">
+            <div class="text">Bar Team Leader</div>
+            <h3>Cascade Bar and Cafe</h3><h6>2019-current</h6>
+            <p> <ul>
+              <li>Knowledge of principles and processes for providing exceptional customer Accom, i.e. meeting quality standards for Accom, and evaluation of customer satisfaction.</li>
+              <li>Undertook stock duties ,bookings, shelving,deliveries and orders.</li>
+              <li>Cash till Reconciliations.</li>
+              <li>Preparing alcoholic or non-alcoholic beverages for bar and patrons.</li>
+              <li>Interacting with customers, taking orders and serving snacks and drinks</li>
+              <li>Assessing bar customers’ needs and preferences and making recommendations</li>
+             </ul></p>
+             </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- contact section -->
+<section class="contact" id="contact">
+  <div class="max-width">
+      <h2 class="title">Contact me</h2>
+      <div class="contact-content">
+          <div class="column left">
+              <div class="text">Get in Touch</div>
+              <p>Eager to learn more about me? Send me an email.</p>
+              <div class="icons">
+                  <div class="row">
+                      <i class="fas fa-user"></i>
+                      <div class="info">
+                          <div class="head">Name</div>
+                  <div class="sub-title">Sushan Shrestha</div>
+                </div>
+              </div>
+              <div class="row">
+                <i class="fas fa-map-marker-alt"></i>
+                <div class="info">
+                  <div class="head">Address</div>
+                  <div class="sub-title">Hobart, Aus</div>
+                </div>
+              </div>
+              <div class="row">
+                <i class="fas fa-envelope"></i>
+                <div class="info">
+                  <div class="head">Email</div>
+                  <div class="sub-title">shresthasusan@yahoo.com</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="column right">
+            <div class="text">Message me</div>
+            <form onSubmit="return ajaxpost()">
+              <ul class= "fields">
+                <li class ="field name">
+                  <input type="text" placeholder="Name" id="user-name" required />
+                </li>
+                <li class="field email">
+                  <input type="email" placeholder="Email" id="user-email" required />
+                </li>
+                <li class="field">
+                  <input type="text" placeholder="Subject" id="user-subject" required />
+                </li>
+                <li class="field textarea">
+                  <textarea cols="30" rows="10" placeholder="Describe project.."  id="user-project" required></textarea>
+                </li>    
+                <li class="button">
+                  <button type="submit">Send message</button>
+                </li>   
+                </ul>
+               </form>
+          </div>
+        </div>
+      </div>
+  </section>
+  <!-- footer section start -->
+  <footer>
+   
+    <span>Created by <a href="https://www.linkedin.com/in/grishma-b-487170143/" >Grishma </a><span class="far fa-copyright"></span> 2021 All rights reserved.</span>
+  </footer>
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
